@@ -1,0 +1,17 @@
+#color_wrap {
+	width: 100px;
+	margin: 0 auto;
+	font-size: 0;
+	line-height: 0px;
+}
+.color {
+	display: inline-block;
+	width: 3px;
+	height: 3px;
+  -webkit-transition: background-color 20s ease-in-out;
+  transition: background-color 20s ease-in-out;
+  background-color: #ddd;
+}
+.color:hover {
+  background-color: #ff0000;
+}
